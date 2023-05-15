@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FreeCRMTest" data-provider-thread-count="1">
+  <test name="FreeCRM" thread-count="1">	 
+	  <parameter name="browserName" value="Chrome" />
+		<parameter name="author" value="Harish" />
+    <classes>		
+      <class name="com.crm.qa.testcases.LoginPageTest">
+     <!-- <methods>
+		  <include name=""></include>
+	  </methods>-->
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
