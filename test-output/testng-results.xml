@@ -2,62 +2,62 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-15T16:06:43 IST" name="Default suite" finished-at="2023-05-15T16:07:32 IST" duration-ms="49281">
+  <suite started-at="2023-05-16T14:52:40 IST" name="FreeCRMTest" finished-at="2023-05-16T14:53:36 IST" duration-ms="55943">
     <groups>
     </groups>
-    <test started-at="2023-05-15T16:06:43 IST" name="Default test" finished-at="2023-05-15T16:07:32 IST" duration-ms="49281">
+    <test started-at="2023-05-16T14:52:40 IST" name="FreeCRM" finished-at="2023-05-16T14:53:36 IST" duration-ms="55943">
       <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:43 IST" name="setUp" finished-at="2023-05-15T16:06:50 IST" duration-ms="7705" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:40 IST" name="setUp" finished-at="2023-05-16T14:52:50 IST" duration-ms="9931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:50 IST" name="loginPageTitleTest" finished-at="2023-05-15T16:06:50 IST" duration-ms="34" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:50 IST" name="loginPageTitleTest" finished-at="2023-05-16T14:52:50 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:50 IST" name="screenshotCapture" finished-at="2023-05-15T16:06:50 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:50 IST" name="screenshotCapture" finished-at="2023-05-16T14:52:50 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@661972b0] output={null}]]]>
+                <![CDATA[[TestResult name=loginPageTitleTest status=SUCCESS method=LoginPageTest.loginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotCapture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:50 IST" name="tearDown" finished-at="2023-05-15T16:06:51 IST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:50 IST" name="tearDown" finished-at="2023-05-16T14:52:50 IST" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:51 IST" name="setUp" finished-at="2023-05-15T16:06:57 IST" duration-ms="5883" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:50 IST" name="setUp" finished-at="2023-05-16T14:52:57 IST" duration-ms="7150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:57 IST" name="crmLogoImageTest" finished-at="2023-05-15T16:06:57 IST" duration-ms="105" status="PASS">
+        <test-method signature="crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:57 IST" name="crmLogoImageTest" finished-at="2023-05-16T14:52:57 IST" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crmLogoImageTest -->
-        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:57 IST" name="screenshotCapture" finished-at="2023-05-15T16:06:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:57 IST" name="screenshotCapture" finished-at="2023-05-16T14:52:57 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=crmLogoImageTest status=SUCCESS method=LoginPageTest.crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@661972b0] output={null}]]]>
+                <![CDATA[[TestResult name=crmLogoImageTest status=SUCCESS method=LoginPageTest.crmLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotCapture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:57 IST" name="tearDown" finished-at="2023-05-15T16:06:57 IST" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:57 IST" name="tearDown" finished-at="2023-05-16T14:52:57 IST" duration-ms="230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:06:57 IST" name="setUp" finished-at="2023-05-15T16:07:03 IST" duration-ms="5659" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:52:57 IST" name="setUp" finished-at="2023-05-16T14:53:05 IST" duration-ms="7294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="clickOnLoginButtonTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:07:03 IST" name="clickOnLoginButtonTest" finished-at="2023-05-15T16:07:31 IST" duration-ms="28867" status="FAIL">
+        <test-method signature="clickOnLoginButtonTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:53:05 IST" name="clickOnLoginButtonTest" finished-at="2023-05-16T14:53:35 IST" duration-ms="30139" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email1']"}
@@ -66,9 +66,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dd79f172a4986ade1db6bcb764ca6c2e, findElement {using=name, value=email1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sh\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65359}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dd79f172a4986ade1db6bcb764ca6c2e]]>
+Command: [264360f74422f42781532e918a9d7df4, findElement {using=name, value=email1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sh\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52263/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 264360f74422f42781532e918a9d7df4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='email1']"}
@@ -77,9 +77,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dd79f172a4986ade1db6bcb764ca6c2e, findElement {using=name, value=email1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sh\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:65359}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65359/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: dd79f172a4986ade1db6bcb764ca6c2e
+Command: [264360f74422f42781532e918a9d7df4, findElement {using=name, value=email1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\sh\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:52263}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52263/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 264360f74422f42781532e918a9d7df4
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -136,22 +136,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnLoginButtonTest -->
-        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:07:31 IST" name="screenshotCapture" finished-at="2023-05-15T16:07:32 IST" duration-ms="235" status="PASS">
+        <test-method is-config="true" signature="screenshotCapture(org.testng.ITestResult)[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:53:35 IST" name="screenshotCapture" finished-at="2023-05-16T14:53:35 IST" duration-ms="297" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=clickOnLoginButtonTest status=FAILURE method=LoginPageTest.clickOnLoginButtonTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@661972b0] output={null}]]]>
+                <![CDATA[[TestResult name=clickOnLoginButtonTest status=FAILURE method=LoginPageTest.clickOnLoginButtonTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotCapture -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@661972b0]" started-at="2023-05-15T16:07:32 IST" name="tearDown" finished-at="2023-05-15T16:07:32 IST" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3e58a80e]" started-at="2023-05-16T14:53:35 IST" name="tearDown" finished-at="2023-05-16T14:53:36 IST" duration-ms="299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- FreeCRM -->
+  </suite> <!-- FreeCRMTest -->
 </testng-results>

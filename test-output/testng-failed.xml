@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite data-provider-thread-count="1" name="Failed suite [FreeCRMTest]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="FreeCRM(failed)">
+    <parameter name="author" value="Harish"/>
+    <parameter name="browserName" value="Chrome"/>
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
@@ -12,5 +17,5 @@
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- FreeCRM(failed) -->
+</suite> <!-- Failed suite [FreeCRMTest] -->

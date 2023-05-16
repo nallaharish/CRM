@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="FreeCRMTest" data-provider-thread-count="1">
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG">			
+		</listener>
+	</listeners>
   <test name="FreeCRM" thread-count="1">	 
 	  <parameter name="browserName" value="Chrome" />
 		<parameter name="author" value="Harish" />
