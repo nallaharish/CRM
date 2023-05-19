@@ -15,7 +15,7 @@ public class LoginPage extends TestBase{
 	WebElement logIn;
 	
 	
-	@FindBy(name="email1")
+	@FindBy(name="email")
 	WebElement username;
 	
 	@FindBy(name="password")
