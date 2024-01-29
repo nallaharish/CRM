@@ -10,6 +10,7 @@
 		<parameter name="author" value="Harish" />
     <classes>		
       <class name="com.crm.qa.testcases.LoginPageTest">
+		  <!--<class name="com.crm.qa.testcases.LoginPageTest">-->
      <!-- <methods>
 		  <include name=""></include>
 	  </methods>-->
