@@ -64,7 +64,7 @@ public class TestBase {
 		String browserName1 = prop.getProperty("browser");
 		if (browserName1.equals("chrome")) {
 			ChromeOptions chromeoption = new ChromeOptions();
-			chromeoption.addArguments("--remote-allow-origins=*");
+			//chromeoption.addArguments("--remote-allow-origins=*");
 			driver = new ChromeDriver(chromeoption);			
 		} else if (browserName1.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", "E:\\Software\\geckodriver.exe");

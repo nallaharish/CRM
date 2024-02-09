@@ -8,6 +8,8 @@
           <include name="clickOnLoginButtonTest"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="crmLogoImageTest"/>
           <include name="screenshotCapture"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
